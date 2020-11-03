@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="96dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="User Name" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/userName"
+            android:layout_marginTop="36dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Password" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/info"
+            android:layout_below="@+id/password"
+            android:hint="info:"
+            android:layout_alignStart="@+id/password"
+            android:layout_marginTop="26dp" />
+
+        <Button
+            android:id="@+id/logInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info"
+            android:layout_alignStart="@+id/info"
+            android:layout_marginTop="36dp"
+            android:text="LOG IN" />
+
+        <Button
+            android:id="@+id/logInRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:layout_alignEnd="@+id/password"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/info"
+
+            />
+
+
+
+
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>
